@@ -26,7 +26,7 @@ font1={'family':'serif','color':'blue','size':10}
 # array of x axis and define its limit
 x =np.arange(x1-10,x2+10,1)
 
-# array of y axis
+# Empty array of y axis
 y=[]
 
 # get all the values to plot the function f(x) = ax²+bx+c
