@@ -23,7 +23,7 @@ Plotting the graph with mathplotlib library
 font={'family':'serif','color':'red','size':15}
 font1={'family':'serif','color':'blue','size':10}
 
-# array of x axis
+# array of x axis and define its limit
 x =np.arange(x1-10,x2+10,1)
 
 # array of y axis
