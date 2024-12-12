@@ -13,14 +13,16 @@ delta = pow(b,2) - 4* a * c
 x1 = (-b - sqrt(delta)) / (2*a)
 x2 = (-b + sqrt(delta)) / (2*a)
 
+X1 = round(x1,2)
+X2 = round(x2,2)
 """
 Plotting the graph with mathplotlib library
 """
-font={ 'family':'serif','color':'red','size':15 }
-font1={ 'family':'serif','color':'blue','size':10 }
+font={ 'family' : 'serif', 'color' : 'red', 'size' : 15 }
+font1={ 'family' : 'serif', 'color' : 'blue', 'size' : 10 }
 
 # array of x axis
-x = np.arange(x1-10,x2+10,1)
+x = np.arange( X1 - 10, X2 + 10, 1 )
 
 # array of y axis
 y = [ ]
@@ -29,7 +31,7 @@ y = [ ]
 
 for i in x:
 
-        y.append(a*pow(i,2) + b *i + c)
+        y.append( a * pow( i , 2 ) + b * i + c )
 
 plt.plot( x, y)
 
