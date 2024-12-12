@@ -21,19 +21,17 @@ Plotting the graph with mathplotlib library
 font={ 'family' : 'serif', 'color' : 'red', 'size' : 15 }
 font1={ 'family' : 'serif', 'color' : 'blue', 'size' : 10 }
 
-<<<<<<< HEAD
 # array of x axis
 x = np.arange( X1 - 10, X2 + 10, 1 )
 
 # array of y axis
 y = [ ]
-=======
+
 # array of x axis and define its limit
 x =np.arange(x1-10,x2+10,1)
 
 # Empty array of y axis
 y=[]
->>>>>>> 0c525355a883d44e6cbc3d3ef8cacc3cf9969c1e
 
 # get all the values to plot the function f(x) = ax²+bx+c
 
